@@ -1,4 +1,4 @@
-# **EEG Motor Movement/Imagery Classification Using Random Forest and Convolutional Neural Networks**
+# **Electroencephalography Motor Movement/Imagery Classification Using Random Forest and Convolutional Neural Networks**
 
 ## **Problem Description**
 
