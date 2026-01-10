@@ -2,7 +2,7 @@
 
 ## **Problem Description**
 
-The goal of this project is to classify electroencephalography (EEG) recordings corresponding to different motor conditions using machine learning techniques. Specifically, this project focuses on distinguishing between executed and imagined hand movements based on EEG data.
+The goal of this project is to classify electroencephalography (EEG) recordings corresponding to different motor conditions using machine learning techniques. Specifically, this project focuses on distinguishing between executed and imagined body movements based on EEG data.
 
 This is a supervised classification problem where EEG segments recorded during real motor execution and motor imagery are used as input. The project compares a classical machine learning approach (Random Forest) with a neural network model (Convolutional Neural Network) in their ability to classify patterns from EEG signals.
 
@@ -11,7 +11,7 @@ This is a supervised classification problem where EEG segments recorded during r
 The project will use the **EEG Motor Movement/Imagery Dataset** from **PhysioNet**.
 
 - **Link:** https://physionet.org/content/eegmmidb/1.0.0/
-- **Description:** The dataset consists of over 1500 one- and two-minute 64-channel EEG recordings collected from 109 subjects during real and imagined motor tasks. EEG signals are sampled at 160 Hz and include event annotations indicating rest and motor activity. EEG segments corresponding to executed and imagined hand movements will be extracted and used as class labels.
+- **Description:** The dataset consists of over 1500 one- and two-minute 64-channel EEG recordings collected from 109 subjects during real and imagined motor tasks. EEG signals are sampled at 160 Hz and include event annotations indicating rest and motor activity. EEG segments corresponding to executed and imagined body movements will be extracted and used as class labels.
 
 ## **Methodology**
 
@@ -34,7 +34,7 @@ Model performance will be evaluated using classification accuracy and confusion 
 
 1. **Data Preparation:**
     
-    Download the EEG dataset, segment recordings into fixed-length time windows, normalize signals, and select hand-related motor execution and imagery trials.
+    Download the EEG dataset, segment recordings into fixed-length time windows, normalize signals, and select motor execution and imagery trials.
     
 2. **Model Development:**
     
