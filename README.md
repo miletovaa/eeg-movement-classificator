@@ -18,7 +18,7 @@ The project will use the **EEG Motor Movement/Imagery Dataset** from **PhysioNet
 Two modeling approaches will be implemented and compared:
 
 - **Random Forest (RF):** implemented using **scikit-learn**. The model will be trained on minimally processed EEG features, such as fixed-length signal windows and simple statistical descriptors, to serve as a classical machine learning baseline.
-- **Convolutional Neural Network (CNN):** 1D CNN implemented using **PyTorch**. The CNN will operate directly on multichannel EEG time-series data to learn temporal patterns relevant for motor imagery classification.
+- **Convolutional Neural Network (CNN):** CNN implemented using **PyTorch**. The CNN will operate directly on multichannel EEG time-series data to learn temporal patterns relevant for motor imagery classification.
 
 Model performance will be evaluated using classification accuracy and confusion matrices. Training and validation loss curves will be analyzed to assess convergence and overfitting.
 
@@ -38,7 +38,7 @@ Model performance will be evaluated using classification accuracy and confusion 
     
 2. **Model Development:**
     
-    Train a RF classifier on simple statistical features, and implement a 1D CNN in PyTorch using raw EEG windows.
+    Train a RF classifier on simple statistical features, and implement a CNN in PyTorch using raw EEG windows.
     
 3. **Evaluation and Analysis:**
     
