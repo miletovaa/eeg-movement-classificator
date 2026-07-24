@@ -2,7 +2,7 @@
 
 ## **Problem Description**
 
-The goal of this project is to classify electroencephalography (EEG) recordings corresponding to different motor conditions using machine learning techniques. Specifically, this project focuses on distinguishing between executed and imagined body movements based on EEG data.
+The goal of this project is to classify electroencephalography (EEG) recordings corresponding to different motor conditions using machine learning techniques. Specifically, this project focuses on distinguishing between fist vs feet motor tasks based on EEG data.
 
 This is a supervised classification problem where EEG segments recorded during real motor execution and motor imagery are used as input. The project compares a classical machine learning approach (Random Forest) with a neural network model (Convolutional Neural Network) in their ability to classify patterns from EEG signals.
 
